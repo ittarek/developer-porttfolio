@@ -197,3 +197,39 @@ margin-bottom: 20px;
   text-align: center;
   margin-top: 50px;
 }
+
+
+/* contact style */
+.contact{
+  display: flex;
+  gap: 50px;
+  background: #FFF8F3;
+  padding: 130px 200px
+}
+.contact-title{
+  text-align: center;
+  font-weight: 700;
+font-size: 35px;
+color: #181818;
+}
+.contact input[type="text"], input[type="email"], textarea{
+  margin-bottom: 20px;
+  border: 0;
+  /* width: 100px; */
+  padding: 5px 30px;
+
+}
+.contact-description{
+  margin-bottom: 25px;
+  line-height: 28px;
+}
+.contact a{
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 10px;
+}
+input{
+ 
+height: 54px; 
+
+}
