@@ -137,10 +137,9 @@ main {
 }
 .skills-container .skill img {
   margin-bottom: 30px;
-  
 }
 .skill-title {
-    text-align:left;
+  text-align: left;
   font-weight: 700;
   font-size: 20px;
   color: #181818;
@@ -152,8 +151,49 @@ main {
   border-radius: 5px;
   padding: 30px;
 }
-.skill-description{
-    text-align: left;
-    line-height: 28px;
-    color: #757575;
+.skill-description {
+  text-align: left;
+  line-height: 28px;
+  color: #757575;
+}
+
+/* resume style */
+.resume-contant {
+  display: flex; 
+  gap: 24px;
+}
+.resume .title {
+  color: #474747;
+  font-weight: 700;
+font-size: 30px
+}
+.title {
+  color: #474747;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.resume,
+sub-title {
+  color: #757575;
+  font-weight: 600;
+font-size: 20px;
+margin-bottom: 20px;
+
+}
+.resume .description {
+  color: #757575;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* .resume-item{
+  margin-bottom: 30px;
+  margin-top: 30px;
+} */
+.resume-btn{
+  text-align: center;
+  margin-top: 50px;
 }
