@@ -267,9 +267,14 @@ input {
     flex-direction:column;
       gap: 20px;
   }
+  .nav-title{
+    margin-left: 40px;
+  }
   nav ul{
+    padding-left:-0px;
     flex-direction: column;
     gap: 20px;
+    align-items: flex-start;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
