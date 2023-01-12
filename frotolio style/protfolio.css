@@ -100,12 +100,6 @@ main {
 .about-info-container {
   display: flex;
   margin-bottom: 30px;
-}
-.about-info {
-  /* margin-right: 245px; */
-}
-.about-info-container {
-  display: flex;
   justify-content: space-around;
 }
 
@@ -159,13 +153,13 @@ main {
 
 /* resume style */
 .resume-contant {
-  display: flex; 
+  display: flex;
   gap: 24px;
 }
 .resume .title {
   color: #474747;
   font-weight: 700;
-font-size: 30px
+  font-size: 30px;
 }
 .title {
   color: #474747;
@@ -173,16 +167,14 @@ font-size: 30px
   font-size: 25px;
   margin-bottom: 20px;
   margin-top: 20px;
-
 }
 
 .resume,
 sub-title {
   color: #757575;
   font-weight: 600;
-font-size: 20px;
-margin-bottom: 20px;
-
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 .resume .description {
   color: #757575;
@@ -193,43 +185,92 @@ margin-bottom: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
 } */
-.resume-btn{
+.resume-btn {
   text-align: center;
   margin-top: 50px;
 }
 
-
 /* contact style */
-.contact{
+.contact {
   display: flex;
   gap: 50px;
-  background: #FFF8F3;
-  padding: 130px 200px
+  background: #fff8f3;
+  padding: 130px 200px;
 }
-.contact-title{
+.contact-title {
   text-align: center;
   font-weight: 700;
-font-size: 35px;
-color: #181818;
+  font-size: 35px;
+  color: #181818;
 }
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
   margin-bottom: 20px;
   border: 0;
   /* width: 100px; */
   padding: 5px 30px;
-
 }
-.contact-description{
+.contact-description {
   margin-bottom: 25px;
   line-height: 28px;
 }
-.contact a{
+.contact a {
   text-decoration: none;
   margin-right: 20px;
   padding: 10px;
 }
-input{
- 
-height: 54px; 
+input {
+  height: 54px;
+}
 
+
+/* responsive mobile site */
+@media screen and (max-width: 576px) {
+  .header {
+    background-image:none ;
+  }
+  header{
+    flex-direction:column;
+    gap: 20px;
+
+
+  }
+  nav,
+  .bannar,
+  .skills-container,
+  .resume-contant,
+  .about{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+  }
+ .bannar img{
+  width:50%;
+ }
+ .bannar{
+  margin: 0 20px;
+
+ }
+ .bannar-title{
+  font-size: 40px;
+ }
+ .bannar-description{
+  width: 300px;
+ }
+
+  .contact {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .about-info-container {
+    flex-direction:column;
+      gap: 20px;
+  }
+  nav ul{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
 }
